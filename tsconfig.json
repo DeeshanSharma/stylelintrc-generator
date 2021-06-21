@@ -10,7 +10,8 @@
     "outDir": "dist",
     "rootDir": "src",
     "strict": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "strictNullChecks": false
   },
   "lib": ["es2015"]
 }
