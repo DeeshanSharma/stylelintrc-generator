@@ -48,5 +48,16 @@
   "files": [
     "dist/",
     "assets/"
+  ],
+  "keywords": [
+    "stylelint",
+    "stylelintrc",
+    "generator",
+    "javascript",
+    "typescript",
+    "stylelint-config",
+    "stylelint-plugin",
+    "stylelintconfig",
+    "stylelintrc-generator"
   ]
 }
