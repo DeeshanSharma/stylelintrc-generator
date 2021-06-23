@@ -9,7 +9,7 @@
  <p align="center">
     A simple CLI tool to create .stylelintrc.json file perfectly compatible with your project and code formatter Prettier written in TypeScript
     <br />
-	Answer some simple questions and get your RC file as well as all the packages installed
+    Answer some simple questions and get your RC file as well as all the packages installed
     <br />
     <a href="https://www.npmjs.com/package/stylelintrc-generator">NPM Package</a>
     ·
@@ -35,7 +35,7 @@
 
 <div align="center">
 
-<!-- ![Project Demo Gif](assets/demo-stylelintrc-generator.gif) -->
+![Project Demo Gif](assets/stylelintrc-generator-demo.gif)
 
 </div>
 
