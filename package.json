@@ -1,7 +1,7 @@
 {
   "name": "stylelintrc-generator",
   "version": "1.0.0-rc.0",
-  "description": "",
+  "description": "A simple CLI tool to create .stylelintrc.json file perfectly compatible with your project and code formatter Prettier written in TypeScript. Answer some simple questions and get your RC file, as well as all the packages, installed",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && node_modules/.bin/tsc",
