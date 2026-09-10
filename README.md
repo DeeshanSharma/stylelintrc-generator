@@ -21,7 +21,7 @@
 <div align="center">
 
 [![npm](https://img.shields.io/npm/v/stylelintrc-generator?color=success&label=npm%20package&logo=npm&style=for-the-badge)](https://www.npmjs.com/package/stylelintrc-generator)
-![Status](https://img.shields.io/badge/status-active-success.svg?logo=statuspal&style=for-the-badge)
+![Status](https://img.shields.io/badge/status-unmaintained-lightgrey.svg?logo=statuspal&style=for-the-badge)
 [![GitHub issues](https://img.shields.io/github/issues/DeeshanSharma/stylelintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/stylelintrc-generator/issues)
 [![GitHub forks](https://img.shields.io/github/forks/DeeshanSharma/stylelintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/stylelintrc-generator/network)
 [![GitHub stars](https://img.shields.io/github/stars/DeeshanSharma/stylelintrc-generator?logo=github&style=for-the-badge)](https://github.com/DeeshanSharma/stylelintrc-generator/stargazers)
@@ -43,13 +43,23 @@
 
 <p align="center">Stylelintrc-Generator is a simple but time-saving command-line tool that will help you help you setup your project and code formatter with all the style configuration you want. You just have to answer some really simple questions and this tool will do all the heavy lifting for you creating the file according to config and installing all the packages.</p>
 
+## ⚠️ Unmaintained since 2021
+
+Still functional: Stylelint reads `.stylelintrc.json` today exactly as it did in
+2021, so unlike its ESLint sibling this generator is not broken by a format
+change. It simply has not been touched since, and the package versions it
+installs are four years old.
+
 ## 💡 Features
 
-1. Uses BEM conventions
 1. Perfectly compatible with
    - Scss
    - CSS
-   - Prettier
+   - Prettier, wired in through `stylelint-prettier/recommended`
+1. Optional BEM plugin. Answering yes installs `stylelint-selector-bem-pattern`
+   and registers it under `plugins`, but the generated `rules` block is left
+   empty, so nothing is enforced until you write a
+   `plugin/selector-bem-pattern` rule yourself
 1. Ask questions and creates config based on your choice
 1. You have complete control over the configuration
 1. Checks for package.json file and `npm init -y` if not found
